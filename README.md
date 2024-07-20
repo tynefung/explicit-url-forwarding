@@ -9,7 +9,7 @@
 
 #### Step2： 配置源域名
 
-* 在你的源域名的 DNS 中，增加 CNAME记录 解析至 {username}.github.io 或 {orgname}.github.io。例如，如果您的用户名是 user123，则应解析至 user123.github.io  
+* 在你的源域名的 DNS 中，增加 CNAME记录 解析至 {username}.github.io 或 {orgname}.github.io。例如，我的用户名是 tynefung，所以我应解析至 tynefung.github.io  
 * 进入项目仓库，在 Code 中点击 CNAME，点击铅笔按钮 (Edit this file) 来编辑文件，将 example.com 替换为源域名   
 * 点击 Commit changes 提交变更   
 * 点击 Settings 中选择左侧菜单 Code and automation 下面的 Pages，在 Branch 中选择 main /(root) 并点击 Save  
