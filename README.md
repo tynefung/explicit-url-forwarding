@@ -50,7 +50,7 @@ If you need implicit forwarding, please refer to https://github.com/tynefung/imp
 
 * Enter the project repository, click on index.html in Code, click the pencil button (Edit this file) to edit the file, and then https://example.com Replace with target address  
 * Click on 'commit changes' to submit the changes  
-* Using the same method to edit 404.exe https://example.com Replace with target address  
+* Using the same method to edit 404.html. Replace https://example.com with the target address  
   
 #### Completed
 * At this point, all configurations have been completed. Under normal circumstances, when accessing the source domain name, it will be explicitly forwarded to the target domain name.  
