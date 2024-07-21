@@ -1,5 +1,6 @@
-## 利用 Github Page 实现 URL 显性转发
-> 本项目旨在通过 Github Page 实现源域名显性转发至目标域名。以下是详细的操作步骤：
+## 利用 Github Pages 实现 URL 显性转发
+如你需要隐性转发，请参考 https://github.com/tynefung/implicit-url-forwarding
+> 本项目旨在通过 Github Pages 实现源域名显性转发至目标域名。以下是详细的操作步骤：
 
 #### Step1： fork 本项目至你的仓库
 
