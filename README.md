@@ -25,3 +25,32 @@
 #### 完成
 
 * 至此，已全部完成配置，正常情况下，当访问源域名时，将显性转发至目标域名。
+
+<br>
+
+## Implementing URL explicit forwarding using Github Pages
+If you need implicit forwarding, please refer to https://github.com/tynefung/implicit-url-forwarding  
+> This project aims to achieve explicit forwarding from the source domain to the target domain through Github Pages. The following are detailed operational steps:  
+
+#### Step 1: Fork this project to your warehouse
+
+* Click the Fork button on this page  
+* Repository name: Fill in your project name, you can freely fill it in  
+* Click on Create fork  
+  
+#### Step 2: Configure the source domain name
+
+* Add a CNAME record in the DNS of your source domain to resolve to {username}.github.io or {orgname}.github.io. For example, my username is tynefung, so I should resolve it to tynefung.GitHub.io  
+* Enter the project repository, click on the CNAME in Code, click the pencil button (Edit this file) to edit the file, and replace 'example. com' with the source domain name  
+* Click on 'commit changes' to submit the changes  
+* Click on Settings, select Pages under Code and Automation on the left menu, choose main/(root) in Branch, and click Save  
+* Check the Enhance HTTPS option to ensure secure access  
+
+#### Step 3: Configure the target domain name
+
+* Enter the project repository, click on index.html in Code, click the pencil button (Edit this file) to edit the file, and then https://example.com Replace with target address  
+* Click on 'commit changes' to submit the changes  
+* Using the same method to edit 404.exe https://example.com Replace with target address  
+  
+#### Completed
+* At this point, all configurations have been completed. Under normal circumstances, when accessing the source domain name, it will be explicitly forwarded to the target domain name.  
